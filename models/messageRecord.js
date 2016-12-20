@@ -20,13 +20,13 @@ var db = require('./db');
  //    }
 
 function MessageRecord(messageRecord) {
-	this.recordId = messageRecord.recordId;
+	// this.recordId = messageRecord.recordId;
 	this.msgType = messageRecord.msgType;
 	this.msgContent = messageRecord.msgContent;	
 	this.senderName = messageRecord.senderName;
 	this.senderId = messageRecord.senderId;
-	this.status = messageRecord.status;
-	this.isDeleted = messageRecord.isDeleted;
+	// this.status = messageRecord.status;
+	// this.isDeleted = messageRecord.isDeleted;
 }
 
 module.exports = MessageRecord;
